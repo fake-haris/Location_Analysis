@@ -19,6 +19,7 @@ from matplotlib.image import NonUniformImage
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 from sklearn.cluster import DBSCAN
+import statsmodels as sm
 
 
 def json_reader(path):
