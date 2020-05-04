@@ -253,8 +253,6 @@ def antena_index(identity, latitude, longtitude):
         except Exception as e:
             print(e)
 
-    # antennas['lat'].clear()
-    # antennas['long'].clear()
     if len(real_lat) < 10 or len(real_long) < 10:
         print('idia')
         return "too little info to cluster"
